@@ -10,7 +10,7 @@
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
 	    <meta name="robots" content="all">
 
-	    <title>Корзина</title>
+	    <title>Новости</title>
 
 	    <!-- Bootstrap Core CSS -->
 	    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -26,7 +26,7 @@
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
-		
+
 
 		
 		<!-- Icons/Glyphs -->
@@ -60,7 +60,7 @@
 				<ul class="list-unstyled">
 					<li><a href="account.html"><i class="icon fa fa-user"></i>Мой аккаунт</a></li>
 					<li><a href="shopping-cart.html"><i class="icon fa fa-shopping-cart"></i>Корзина</a></li>
-					<li><a href="signin.html"><i class="icon fa fa-sign-in"></i>Вход</a></li>
+					<li><a href="#"><i class="icon fa fa-sign-in"></i>Вход</a></li>
 				</ul>
 			</div><!-- /.cnt-account -->
 
@@ -77,7 +77,7 @@
 <div class="logo">
 	<a href="home.html">
 		
-		<img src="assets/images/1.png" alt="" width="225" >
+		<img src="assets/images/1.png" alt="" width="225">
 
 	</a>
 </div><!-- /.logo -->
@@ -146,7 +146,7 @@
         <div class="yamm navbar navbar-default" role="navigation">
             <div class="navbar-header">
                 <button data-target="#mc-horizontal-menu-collapse" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-
+                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -199,109 +199,59 @@
 <!-- ============================================== HEADER : END ============================================== -->
 
 
-<div class="body-content outer-top-xs">
+<div class="body-content outer-top-bd">
 	<div class="container">
-		<div class="row inner-bottom-sm">
-			<div class="shopping-cart">
-				<div class="col-md-12 col-sm-12 shopping-cart-table ">
-	<div class="table-responsive">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th class="cart-romove item">Удаление</th>
-					<th class="cart-description item">Изображение</th>
-					<th class="cart-product-name item">Наименование</th>
-                    <th class="cart-product-quantity">Количество</th>
-					<th class="cart-sub-total item">Цена</th>
-				</tr>
-			</thead><!-- /thead -->
-			<tfoot>
-				<tr>
-					<td colspan="7">
-						<div class="shopping-cart-btn">
-							<span class="">
-								<a href="#" class="btn btn-upper btn-primary pull-right outer-right-xs">Оформить заказ</a>
-							</span>
-						</div><!-- /.shopping-cart-btn -->
-					</td>
-				</tr>
-			</tfoot>
-			<tbody>
-				<tr>
-					<td class="romove-item"><a href="#" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
-					<td class="cart-image">
-						<a class="entry-thumbnail" href="detail.html">
-						    <img src="assets/images/products/shopping_cart_01.jpg" alt="">
-						</a>
-					</td>
-					<td class="cart-product-name-info">
-						<h4 class='cart-product-description'><a href="detail.html">1</a></h4>
-						
-							<div class="col-sm-8">
-								
-							</div>
-						</div><!-- /.row -->
-						<div class="cart-product-info">
-							<span class="product-imel">IMEL:<span>084628312</span></span><br>
-							<span class="product-color">COLOR:<span>White</span></span>
-						</div>
-					</td>
-					<td class="cart-product-quantity">
-						<div class="cart-quantity">
-							<div class="quant-input">
-				               
-				                <input type="text" value="1">
-			              </div>
-			            </div>
-		            </td>
-					<td class="cart-product-grand-total"><span class="cart-grand-total-price">$539.88</span></td>
-				</tr>
-				<tr>
-					<td class="romove-item"><a href="#" title="cancel" class="icon"><i class="fa fa-trash-o"></i></a></td>
-					<td class="cart-image">
-						<a class="entry-thumbnail" href="detail.html">
-						    <img src="assets/images/products/shopping_cart_02.jpg" alt="">
-						</a>
-					</td>
-					<td class="cart-product-name-info">
-						<h4 class='cart-product-description'><a href="detail.html">2</a></h4>
-						<div class="row">
-							
-							<div class="col-sm-8">
-								
-							</div>
-						</div><!-- /.row -->
-						<div class="cart-product-info">
-							<span class="product-imel">IMEL:<span>084628312</span></span><br>
-							<span class="product-color">COLOR:<span>White</span></span>
-						</div>
-					</td>
-					<td class="cart-product-quantity">
-						<div class="cart-quantity">
-							<div class="quant-input">
-				               
-				                <input type="text" value="1">
-			              </div>
-			            </div>
-		            </td>
-					<td class="cart-product-sub-total"><span class="cart-sub-total-price">$539.88</span></td>
-					</td>
-				</tr>
-			</tbody><!-- /tbody -->
-		</table><!-- /table -->
-	</div>
-</div><!-- /.shopping-cart-table -->				<div class="col-md-4 col-sm-12 estimate-ship-tax">
+		<div class="sign-in-page inner-bottom-sm">
+			<div class="row">
+				<!-- Sign-in -->			
+<div class="col-md-6 col-sm-6 sign-in">
+	<h4 class="">Вход</h4>
+	<p class="">Введите свои данные для входа</p>
 	
-</div><!-- /.estimate-ship-tax -->
+	<form class="register-form outer-top-xs" role="form">
+		<div class="form-group">
+		    <label class="info-title" for="exampleInputEmail1">Email<span>*</span></label>
+		    <input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail1" >
+		</div>
+	  	<div class="form-group">
+		    <label class="info-title" for="exampleInputPassword1">Пароль<span>*</span></label>
+		    <input type="password" class="form-control unicase-form-control text-input" id="exampleInputPassword1" >
+		</div>
+		
+	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Войти</button>
+	</form>					
+</div>
+<!-- Sign-in -->
 
+<!-- create a new account -->
+<div class="col-md-6 col-sm-6 create-new-account">
+	<h4 class="checkout-subtitle">Зарегистрироваться</h4>
+	<p class="text title-tag-line">Создайте свой аккаунт для заказа в нашем интернет-магазине</p>
+	<form class="register-form outer-top-xs" role="form">
+		<div class="form-group">
+	    	<label class="info-title" for="exampleInputEmail2">Email<span>*</span></label>
+	    	<input type="email" class="form-control unicase-form-control text-input" id="exampleInputEmail2" >
+	    	<label class="info-title" for="exampleInputPassword1">Пароль<span>*</span></label>
+		    <input type="password" class="form-control unicase-form-control text-input" id="Password1" >
+		    <label class="info-title" for="exampleInputPassword1">Повторите пароль<span>*</span></label>
+		    <input type="password" class="form-control unicase-form-control text-input" id="Password2" >
 
+            <label class="info-title" for="exampleInputEmail2">Имя<span>*</span></label>
+	    	<input type="text" class="form-control unicase-form-control text-input" id="Name" >
 
-			</div><!-- /.shopping-cart -->
-		</div> <!-- /.row -->
-		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
+            <label class="info-title" for="exampleInputEmail2">Фамилия<span>*</span></label>
+	    	<input type="text" class="form-control unicase-form-control text-input" id="Surname" >
 
-<!-- ============================================== BRANDS CAROUSEL : END ============================================== -->	</div><!-- /.container -->
-</div><!-- /.body-content -->
+            <label class="info-title" for="exampleInputEmail2">Номер телефона<span>*</span></label>
+	    	<input type="number" class="form-control unicase-form-control text-input" id="Telephone" >
+	  	</div>
+	  	<button type="submit" class="btn-upper btn btn-primary checkout-page-button">Зарегистрироваться</button>
+	</form>
+	
+</div>	
+<!-- create a new account -->			</div><!-- /.row -->
+		</div><!-- /.sigin-in-->
+		</div><!-- /.body-content -->
 <!-- ============================================================= FOOTER ============================================================= -->
 <footer id="footer" class="footer color-bg">
 	  <div class="links-social inner-top-sm">
@@ -358,7 +308,11 @@
 </div><!-- /.contact-timing -->
 <!-- ============================================================= CONTACT TIMING : END ============================================================= -->            	</div><!-- /.col -->
 
-           
+            	<div class="col-xs-12 col-sm-6 col-md-3">
+            		 <!-- ============================================================= LATEST TWEET============================================================= -->
+
+<!-- ============================================================= LATEST TWEET : END ============================================================= -->            	</div><!-- /.col -->
+
             	<div class="col-xs-12 col-sm-6 col-md-3">
             		 <!-- ============================================================= INFORMATION============================================================= -->
 <div class="contact-information">
@@ -408,7 +362,7 @@
     </div><!-- /.module-body -->
 </div><!-- /.contact-timing -->
 <!-- ============================================================= INFORMATION : END ============================================================= -->            	</div><!-- /.col -->
-     </div><!-- /.row -->
+            </div><!-- /.row -->
         </div><!-- /.container -->
     </div><!-- /.links-social -->
 
@@ -425,10 +379,63 @@
            
         </div>
     </div>
-
+</footer>
 <!-- ============================================================= FOOTER : END============================================================= -->
 
 
+	<!-- For demo purposes – can be removed on production -->
+	
+	<!--<div class="config open">
+		<div class="config-options">
+			<h4>Pages</h4>
+			<ul class="list-unstyled animate-dropdown">
+				<li class="dropdown">
+					<button class="dropdown-toggle btn btn-primary btn-block" data-toggle="dropdown">View Pages</button>
+					<ul class="dropdown-menu" role="menu">
+						<li role="presentation" class="dropdown-header">Home Pages</li>
+						<li><a href="home.html">Home</a></li>
+						<li><a href="home2.html">Home II</a></li>
+						<li><a href="home-furniture.html">Home Furniture</a></li>
+						<li><a href="homepage1.html">Home Page I</a></li>
+						<li><a href="homepage2.html">Home Page II</a></li>
+					  	<li class="divider"></li>
+					  	<li role="presentation" class="dropdown-header">Other Pages</li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog-details.html">Blog Details</a></li>
+						<li><a href="category.html">Category</a></li>
+						<li><a href="category-2.html">Category II</a></li>
+						<li><a href="checkout.html">Checkout</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="detail.html">Detail</a></li>
+						<li><a href="detail2.html">Detail II</a></li>
+						<li><a href="shopping-cart.html">Shopping Cart Summary</a></li>						
+						
+					</ul>
+				</li>
+			</ul>
+			<h4>Header Styles</h4>
+			<ul class="list-unstyled">
+				<li><a href="home.html">Header 1</a></li>
+				<li><a href="homepage1.html">Header 2</a></li>
+				<li><a href="home-furniture.html">Header 3</a></li>
+			</ul>
+			<h4>Layouts</h4>
+			<ul class="list-unstyled">
+				<li><a href="homepage1.html">Full Width</a></li>
+				<li><a href="homepage2.html">Boxed</a></li>
+			</ul>
+			<h4>Colors</h4>
+			<ul>
+				<li><a class="changecolor green-text" href="#" title="Green color">Green</a></li>
+                <li><a class="changecolor blue-text" href="#" title="Blue color">Blue</a></li>
+                <li><a class="changecolor red-text" href="#" title="Red color">Red</a></li>
+                <li><a class="changecolor orange-text" href="#" title="Orange color">Orange</a></li>
+                <li><a class="changecolor dark-green-text" href="#" title="Darkgreen color">Dark Green</a></li>
+			</ul>
+		</div>
+		<a class="show-theme-options" href="#"><i class="fa fa-wrench"></i></a>
+	</div> -->
+	<!-- For demo purposes – can be removed on production : End -->
 
 	<!-- JavaScripts placed at the end of the document so the pages load faster -->
 	<script src="assets/js/jquery-1.11.1.min.js"></script>
@@ -452,17 +459,17 @@
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
 	<script>
-		$(document).ready(function(){ 
-			$(".changecolor").switchstylesheet( { seperator:"color"} );
-			$('.show-theme-options').click(function(){
-				$(this).parent().toggleClass('open');
-				return false;
-			});
-		});
+	    $(document).ready(function() {
+	        $(".changecolor").switchstylesheet({ seperator: "color" });
+	        $('.show-theme-options').click(function() {
+	            $(this).parent().toggleClass('open');
+	            return false;
+	        });
+	    });
 
-		$(window).bind("load", function() {
-		   $('.show-theme-options').delay(2000).trigger('click');
-		});
+	    $(window).bind("load", function() {
+	        $('.show-theme-options').delay(2000).trigger('click');
+	    });
 	</script>
 	<!-- For demo purposes – can be removed on production : End -->
 

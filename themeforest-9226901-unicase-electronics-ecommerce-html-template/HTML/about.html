@@ -1,10 +1,23 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<!-- Meta -->
-		<meta charset="utf-8">
+		    <meta charset="utf-8">
+         <!-- ДЛя рассрочки -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css"
+            integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd"
+            crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"
+            integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7"
+            crossorigin="anonymous"></script>
+         <!-- ДЛя рассрочки -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+   		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
 	    <meta name="keywords" content="MediaCenter, Template, eCommerce">
@@ -26,6 +39,8 @@
 		<link rel="stylesheet" href="assets/css/rateit.css">
 		<link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
 
+        
+
 
 
 		
@@ -45,7 +60,7 @@
 		<![endif]-->
 
 	</head>
-    <body class="cnt-home">
+    <body ng-app class="cnt-home" >
 	
 		
 	
@@ -60,7 +75,7 @@
 				<ul class="list-unstyled">
 					<li><a href="account.html"><i class="icon fa fa-user"></i>Мой аккаунт</a></li>
 					<li><a href="shopping-cart.html"><i class="icon fa fa-shopping-cart"></i>Корзина</a></li>
-					<li><a href="#"><i class="icon fa fa-sign-in"></i>Вход</a></li>
+					<li><a href="signin.html"><i class="icon fa fa-sign-in"></i>Вход</a></li>
 				</ul>
 			</div><!-- /.cnt-account -->
 
@@ -94,32 +109,25 @@
 </div><!-- /.contact-row -->
 <!-- ============================================================= SEARCH AREA ============================================================= -->
 <div class="search-area">
-    <form>
-        <div class="control-group">
+                            <form>
+                                <div class="control-group">
 
-            <ul class="categories-filter animate-dropdown">
-                <li class="dropdown">
+                                    <ul class="categories-filter animate-dropdown">
+                                        <li class="dropdown">
 
-                    <a class="dropdown-toggle"  data-toggle="dropdown" href="category.html">Категории <b class="caret"></b></a>
+                                            <a class="dropdown-toggle">Поиск</a>
 
-                     <ul class="dropdown-menu" role="menu" >
+                                        </li>
+                                    </ul>
 
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">- Компьютер</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">- Телефон</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">- Телевизор</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">- Фото- и Видеокамера</a></li>
-                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">- Аксессуары</a></li>
-                    </ul>
-                </li>
-            </ul>
+                                    <input class="search-field" placeholder="Что искать?..." />
 
-            <input class="search-field" placeholder="Поиск..." />
+                                    <a class="search-button" href="#"></a>
 
-            <a class="search-button" href="#" ></a>    
-
-        </div>
-    </form>
-</div><!-- /.search-area -->
+                                </div>
+                            </form>
+                        </div>
+                        <!-- /.search-area -->
 <!-- ============================================================= SEARCH AREA : END ============================================================= -->				</div><!-- /.top-search-holder -->
 
 				<div class="col-xs-12 col-sm-12 col-md-3 animate-dropdown top-cart-row">
@@ -229,7 +237,7 @@
 	    <div class="panel-body">
 			<div class="row">		
 
-                <p>Мы открыты и гибки при работе с клиентами. Мы продаем только качественную технику, легально ввезенную в нашу страну.  </p>
+                <p>Мы открыты и гибки при работе с клиентами. Мы продаем только качественную технику, легально ввезенную в нашу страну. Выбирая нас вы получаете отличный сервис и качественное обслуживание. Мы гарантируем надежность продаваемой нами техники. </p>
 			</div>			
 		</div>
 		<!-- panel-body  -->
@@ -248,7 +256,7 @@
 						    </div>
 						    <div id="collapseTwo" class="panel-collapse collapse">
 						      <div class="panel-body">
-						        Лайла
+						        Наша компания была создана в 2011 году как один магазин. Постепенно мы стали расширять нашу сеть, и в 2013 году мы создали этот интернет-магазин. С тех пор количество наших клиентов возрастает с каждым днем. Мы будем рады выдеть Вас в их числе!
 						      </div>
 						    </div>
 					  	</div>
@@ -265,7 +273,7 @@
 						    </div>
 						    <div id="collapseThree" class="panel-collapse collapse">
 						      <div class="panel-body">
-						        С Игорем
+						        Среди наших партнеров числятся такие известные бренды как Samsung, Apple, Microsoft. Мы готовы сотрудничать также с молодыми и перспективными огранизациями!
 						      </div>
 						    </div>
 					  	</div>
@@ -282,7 +290,7 @@
 						    </div>
 						    <div id="collapseFour" class="panel-collapse collapse">
 							    <div class="panel-body">
-						        Прост
+						        Мы предоставляем гарантию на любой наш товар. Наши сотрудники - высококвалифицированные специалисты, а наши партнеры надежны и ответственны.
 						      </div>
 					    	</div>
 						</div>
@@ -299,7 +307,7 @@
 						    </div>
 						    <div id="collapseFive" class="panel-collapse collapse">
 						     <div class="panel-body">
-						        Плакать
+						        Если товар сломался, Вы можете обратиться в любой сервисный центр наших партнеров. При наличии действующей гарантии мы заменим Ваш товар или вернем деньги. Также Вы можете позвонить по телефону, указанному на нашем сайте, и наши специалисты расскажут Вам, как быть. 
 						      </div>
 						    </div>
 					    </div>
@@ -316,11 +324,35 @@
 						    </div>
 					    	<div id="collapseSix" class="panel-collapse collapse">
 					      		<div class="panel-body">
-						        Туда
+						        За консультацией Вы можете обратиться в любой сервисный центр наших партнеров. Также Вы можете набрать номер телефона, указанный на нашем сайте, и наши специалисты помогут Вам.
 						      </div>
 					    	</div>
 					  	</div>
 					  	<!-- checkout-step-06  -->
+                        <!-- checkout-step-07  -->
+					  	<div class="panel panel-default checkout-step-07">
+						    <div class="panel-heading">
+						      <h4 class="unicase-checkout-title">
+						        <a data-toggle="collapse" class="collapsed" data-parent="#accordion" href="#collapseSeven">
+						        	<span>7</span>Могу ли я взять рассрочку?
+						        </a>
+						      </h4>
+						    </div>
+					    	<div id="collapseSeven" class="panel-collapse collapse">
+					      		<div class="panel-body">
+						      
+                                     <small>Мы предоставляем нашим клиентам покупку техники в рассрочку. Вам достаточно просто ввести сумму платежа и желаемое количество месяцев для оплаты, и Вы получите сумму, которую Вам необходимо будет выплачивать каждый месяц. За получением рассрочки обращайтесь в фирменные магазины или по телефону, указанному на сайте.
+                                     </small>
+                                      <br /><br />
+                    <label><b>Сумма покупки</b></label><br />
+                    <input type="number" ng-model="cost" data-ng-init="value='0'"/><br />
+                    <label><b>Кол-во месяцев</b></label><br />
+                    <input type="number" step="1" min="2" ng-model="qty" data-ng-init="value='0'"/><br />
+                     <b>Оплата в месяц составит</b> {{(1.1*cost) / qty}} <b>Br</b><br /> 
+                                  </div>
+					    	</div>
+					  	</div>
+					  	<!-- checkout-step-07  -->
 					  	
 					</div><!-- /.checkout-steps -->
 				</div>
